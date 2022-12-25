@@ -1,0 +1,211 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+}
+.link{
+color: #E6DDC4;
+text-decoration: none;
+font-weight: 20px;
+display: inline-block;
+margin: 0 10px; 
+}
+header{
+ background-color: #181D31;
+ height: 80px;
+   }
+#nav{
+    display: inline-block;
+     /* width: calc(100% - 90px);  */
+    text-align: right;
+    margin: auto;
+    padding: 0px;
+    
+}
+#baslik{
+font-family: 'Times New Roman', Times, serif;
+font-size: 35px;
+padding: 8px;
+margin-left: 0px;
+font-weight: bold;
+}
+.list{
+display: inline-block;
+ font: size 20px;
+ margin-right: 50px;
+}
+
+#ul_index
+{
+margin: 0px;
+padding-left: 400px;
+
+}
+#section_ust{
+background-color: #CCD6A6;
+    /* background-image: url("Resimler/proje4.jpg" ) ; */
+height: 350px;
+background-size: 800px;
+background-position: 20px;
+}
+.img{
+ 
+padding: 50px;
+margin-left: 25px;
+position: relative;
+width: 250px;
+}
+footer{
+background-color: #678983;
+height: 270px;
+}
+h1{
+color: #181D31;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo{
+  width: 40px;
+  margin-top: 5px;
+}
+#insta{
+margin-top: 20px;
+} 
+#imglink::before{
+content: '\2022';
+color: #E6DDC4;
+}
+#imglink{
+margin-top: 5px;
+}
+.list::before{
+content: '\2022';
+color: #E6DDC4;
+}
+.iletisim{
+text-decoration: none;
+color:#181D31;
+
+}
+#wp{
+width: 30px;
+}
+.alt_list{
+display: inline-block;
+}
+#iletisim_list{
+ list-style-type: none;
+}
+#tel_link{
+text-decoration: none;
+color:#181D31;
+}
+#div_ilet{
+    background-color: #E6DDC4;
+    padding-top: 150px;
+}
+#aside_ilet{
+    display: inline-block;
+    padding-left: 150px;
+}
+#nav_ilet{
+    display: inline-block;
+    padding-left: 200px;
+}
+#ul_ilet{
+    display: inline-block;
+}
+#alt_list{
+    margin-top: 0px;
+}
+#fot_ilet{
+    height: 225px; 
+    background-color: #678983;
+    margin: 0%;
+}
+#foto_div_ilet{
+    padding-top: 35px;
+}
+.div_ort{
+    background-color: #E6DDC4;
+    
+}
+#h1hak{
+    margin: 0%;
+    padding-left:  15%;
+    padding-top: 50px;
+    font-family:'Times New Roman', Times, serif;
+    display: inline-block;
+}
+#phak{
+    padding-left: 25px;
+    /* padding-right:  650px; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 500px;
+    display: inline-block;
+}
+#phak2{
+    padding-left: 25px;
+    /* padding-right:  650px; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* display: inline-block; */
+    width: 500px;
+}
+#aside_hak{
+    display: inline-block;
+}
+#imghiz{
+    float: right;
+    width: 200px;
+    margin-left: 300px;
+}
+.div_alt_ilt{
+    padding-left: 40%;
+}
+.img_hiz{
+    width: 300px;
+    margin: 100px;
+}
+#denizp{
+    margin-top: 10px;
+   
+}
+.denizh{
+    padding-left: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#denizo{
+   padding-left: 270px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+/* .img_kz{
+    width: 300px;
+    margin: 200px;
+} */
+.img_vil{
+    width: 300px;
+    margin-left:  300px;
+    height: 300px;
+}
+#alt_list{
+    margin-top: 0px;
+}
+#h4{
+    font-family: 'Times New Roman', Times, serif;
+    color:#181D31;
+    margin: 0px;
+    padding-left: 100px;
+}
+#orta{
+    margin: 0;
+}
+
+#imgort{
+    /* width: 250px; */
+    padding-left: 250px;
+    margin: 0px;
+    height: 250px;
+}
