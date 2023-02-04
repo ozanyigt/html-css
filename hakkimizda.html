@@ -10,17 +10,6 @@
     <title>Zana İnşaat</title>
     <link rel="icon" href="Resimler/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script>
-        /* menü ikonuna tıklandığında responsive css sınıfının menüye uygulanması, uygulanmış ise de iptal edilmesi */
-        function myFunction() {
-            var x = document.getElementById("ustMenu");
-            if (x.className === "menu") {
-                x.className += " responsive";
-            } else {
-                x.className = "menu";
-            }
-        }
-    </script>
 </head>
 
 <body>
@@ -41,46 +30,42 @@
             </a>
         </div>
 
-
     </header>
-    <section id="section_ust">
-        <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                 <div class="carousel-item active"> 
-                    <img class="resim_ana" src="Resimler/villa4.jpg" class="d-block w-100" height="673px" alt="...">
-                    <h1><span class="yazi_span" >DENEME</span></h1>
-                </div>
-                <div class="carousel-item">
-                    <img class="resim_ana" src="Resimler/zanavilla2.jpg" class="d-block w-100" height="673px" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img class="resim_ana" src="Resimler/genelyakınx.jpg" class="d-block  w-100" height="673px" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+
+    <div class="div_ort">
+        <aside id="aside_hak">
+
+            <h1 id="h1hak">Hakkımızda:</h1>
+            <br>
+            <p id="phak"> &emsp; &emsp; Zana İnşaat taahhüt işlerinde faaliyet göstermektedir.
+                Firmamızın her türlü bina inşaatında kalite, üstün hizmet ve ekonomi prensibiyle çok sayıda
+                referansı
+                bulunmaktadır. Sanayi Yapıları,
+                Sosyal ve Ticari Yapılar ve Konutlarda engin tecrübe ile kısa sürede büyük işler başarmanın
+                mutluluğunu
+                yaşamaktayız.
+                İnşaat sektörünün farklı alanlarında aynı üstün uzmanlık ve köklü deneyimle hizmet verirken,
+                tamamladığımız her yeni projenin
+                yaşama ve yaşamı hep daha iyiye götürmeyi hedefleyen kurumsal birikimimize yepyeni değerler
+                kattığına
+                inanıyoruz.
+                <br>
+                &emsp; &emsp; En üst düzeyde müşteri memnuniyetini hedefleyerek hizmet ulaştırdığımız her yeni kurum
+                ve
+                her yeni birey
+                de bu değerler zincirinin vazgeçilmez bir parçası olarak aramıza katılıyor.
+                Biz Geleceğin yeni hedeflerini birlikte güvenle karşılamayı taahhüt ediyoruz.
+
+            </p>
+            <div id="imgdiv"><img id="imghiz" class="float-right" src="Resimler/zana.jpg" alt=""></div>
+
+        </aside>
+    </div>
+    <nav>
+
+    </nav>
 
 
-
-
-    </section>
     <footer class="fot_ilet">
         <div>
 
@@ -118,10 +103,6 @@
         </div>
 
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
 
 </body>
 
